@@ -6,8 +6,9 @@ import PackageDescription
 let package = Package(
 	name: "mpc-binary-xcframework",
 	platforms: [
-		.macOS(.v10_15),
-		.iOS(.v14),
+		.macOS(.v11),
+		.iOS(.v15),
+		.tvOS(.v15),
 	],
 	products: [
 		// Products define the executables and libraries a package produces, making them visible to other packages.
@@ -22,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "mpc",
-			url: "https://github.com/sbooth/mpc-binary-xcframework/releases/download/0.1.0/mpc.xcframework.zip",
-			checksum: "d445b072c6aa808dc14baf2b571f11ad72bc0dc76a0cc5d526dee8f6e2685064"),
+			url: "https://github.com/sbooth/mpc-binary-xcframework/releases/download/0.1.1/mpc.xcframework.zip",
+			checksum: "dfa41a4e31b7764e78ad1cafe43336cc0f859c3c03b30cb823fa9f600ebd17c6"),
 	]
 )
