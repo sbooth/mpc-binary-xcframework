@@ -23,7 +23,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.binaryTarget(
 			name: "mpc",
-			url: "https://github.com/sbooth/mpc-binary-xcframework/releases/download/0.1.1/mpc.xcframework.zip",
-			checksum: "dfa41a4e31b7764e78ad1cafe43336cc0f859c3c03b30cb823fa9f600ebd17c6"),
+			url: "https://github.com/sbooth/mpc-binary-xcframework/releases/download/0.1.2/mpc.xcframework.zip",
+			checksum: "abd6787997b7db31bf7b3a4a352267be1018ee92a617e6332206772dc1d92200"),
 	]
 )
